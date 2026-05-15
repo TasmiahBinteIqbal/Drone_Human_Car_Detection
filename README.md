@@ -43,15 +43,6 @@ Detection Results
 | Recall | 0.627 | 0.529 | 0.578 |
 | F1 Score | 0.505 | 0.462 | 0.484 |
 
-Sample Detection Output
-[Detection Results](outputs/detection_results.png)
-
-Counting Statistics
-[Counting Stats](outputs/counting_stats.png)
-
-Training Loss Curve
-[Training Loss](outputs/training_loss.png)
-
 Model Details
 - Architecture: Faster R-CNN with ResNet50 + FPN backbone
 - Pretrained on: COCO dataset
@@ -75,10 +66,9 @@ Repository Structure
 drone-human-detection/
 ├── drone_detection.ipynb    # Main notebook
 ├── README.md
-└── outputs/
-    ├── sample_images.png
-    ├── annotated_samples.png
-    ├── training_loss.png
-    ├── detection_results.png
-    └── counting_stats.png
+├── sample_images.png
+├── annotated_samples.png
+├── training_loss.png
+├── detection_results.png
+└── counting_stats.png
 ```
